@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Conversor de Moedas</h1>
+  <p class="subtitle">Converta valores entre diferentes moedas</p>
+
+  <div class="card">
+
+    <label>Valor a converter</label>
+    <input type="number" id="amount" value="100"/>
+
+    <div class="rows">
+      <select id="from"></select>
+
+      <div class="swap" onclick="swap()">⇄</div>
+
+      <select id="to"></select>
+    </div>
+
+    <button onclick="convert()">Converter</button>
+
+    <div class="result">
+      <small id="baseValue"></small>
+      <h2 id="finalValue"></h2>
+      <div class="rate" id="rate"></div>
+      <small id="time"></small>
+    </div>
+
+    <div class="info">
+      Taxas obtidas em tempo real via ExchangeRate API.
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
