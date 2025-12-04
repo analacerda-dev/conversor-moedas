@@ -1,6 +1,6 @@
 ## Conversor de Moedas – Real Time
 
-Um conversor de moedas moderno com suporte a bandeiras, interface elegante e atualização em tempo real via API pública.
+Um conversor de moedas moderno e intuitivo, com exibição de bandeiras e conversão atualizada em tempo real por meio de API pública.
 
 ## Preview
 
